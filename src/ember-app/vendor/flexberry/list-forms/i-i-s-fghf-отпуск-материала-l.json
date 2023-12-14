@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fghf-отпуск-материала-e",
+  "editForm": "i-i-s-fghf-отпуск-материала-e",
+  "external": false,
+  "caption": "Отпуск материала",
+  "name": "IISFghfОтпускМатериалаL",
+  "className": "ОтпускМатериалаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fghf-отпуск-материала",
+      "modelProjection": "ОтпускМатериалаL"
+    }
+  ]
+}

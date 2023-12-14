@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISFghfЗаказ",
+  "modelName": "i-i-s-fghf-заказ",
+  "className": "Заказ",
+  "nameSpace": "IIS.Fghf",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "материал",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЗаказа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказE",
+      "modelName": "i-i-s-fghf-заказ",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаказL",
+      "modelName": "i-i-s-fghf-заказ",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "материал",
+          "caption": "Материал",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

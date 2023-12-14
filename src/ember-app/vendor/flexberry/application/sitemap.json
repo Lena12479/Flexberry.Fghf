@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Fghf",
+  "applicationTitle": "Fghf",
+  "items": [
+    {
+      "link": null,
+      "menuName": "fghf",
+      "caption": "Fghf",
+      "title": "Fghf",
+      "children": [
+        {
+          "link": "i-i-s-fghf-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fghf-отпуск-материала-l",
+          "menuName": null,
+          "caption": "Отпуск материала",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fghf-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
